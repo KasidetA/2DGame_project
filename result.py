@@ -1,10 +1,5 @@
-# Task 4
-def calculate_weight_ratio(mp, rp):
-    me = 5.97e24
-    re = 6371
-    massRatio = mp / me
-    radiusRatio = re / rp
-    return massRatio * radiusRatio * radiusRatio
+# Task 5
+from python_fuction import calculate_weight_ratio
 
 ratios = []
 
